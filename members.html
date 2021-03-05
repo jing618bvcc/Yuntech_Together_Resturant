@@ -1,23 +1,24 @@
-<!DOCTYPE html><html lang="en">
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <script src="scripts/p5.js"></script>
-    <script src="scripts/p5.sound.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="styles/style.css">
-    <meta charset="utf-8">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/addons/p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
     <title>雲科共食廚房-會員系統</title>
   </head>
   <body>
-    <script src="scripts/members.js"></script>
-    <h3><a href="index.html">回首頁</a></h3>
-	  <div id="sign" style="display:0;">
-    <h4>電子信箱：<input id="email" class="email" required="" placeholder="E-mail"></h4>
-	  <h4>密碼：<input id="password" class="password" required="" type="password" placeholder="密碼"></h4>
-    <button id="submit" onclick='show(this,"sign")'>送出</button> 
-    <input type="button" id="btn" value="隱藏" onclick='show(this,"sign")'>
+    <script src="members.js"></script>
+    <h3><a href = "min.html">回首頁</a></h3>
+	<div id="sign" style="display:show;">
+    <h4>username:<input id="username"  placeholder = "ID"></h4>  
+	<h4>密碼：<input id="password" class="password" required type="password" placeholder = "密碼"></h4>
+    <button  id="submit"  >送出</button> 
+    <input type="button" id="btn" value="隱藏" onclick='show(this, "sign")'>
       <br><br><br>
-    <a href="new.html">註冊</a>
+    <a href = "https://forms.gle/k7WFEdQf9TSqoxjR6">註冊</a>
     </div>
     <br><br><br>
-    <input type="button" id="btn" value="登出" onclick="out()">
+    <input type="button" id="btn" value="登出" onclick='out()'>
   </body>
 </html>
