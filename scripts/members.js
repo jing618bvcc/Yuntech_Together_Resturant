@@ -44,6 +44,7 @@ function show(obj, id){
         console.log("輸入成功");
         window.localStorage.setItem('email',valem);
         window.localStorage.setItem('password',valpw);
+        this.location.href="index.html";
       }
       else{
         console.log("密碼錯誤");
