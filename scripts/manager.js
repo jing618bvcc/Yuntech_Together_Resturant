@@ -23,7 +23,7 @@ function setup() {
   let ftt=title.flat(Infinity);
   let fno=note.flat(Infinity);
   let fhu=hu.flat(Infinity);
-  document.write('<h3><a href = "min.html">回首頁</a></h3>')
+  document.write('<h3><a href = "index.html">回首頁</a></h3>')
   
   while( i<len ) {
     b[i] = document.createElement("input");
